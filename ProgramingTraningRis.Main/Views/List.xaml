@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ProgramingTraningRis.Main.Views.List"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="{Binding MyProperty}">
+            </TextBlock>
+            <TextBlock Text="{Binding PropertyName}">
+            </TextBlock>
+            <TextBlock Text="{Binding PropertyName.Value}">
+            </TextBlock>
+            <Button Width="200" Height="20" Command="{Binding TextChangeCommand}">ボタン</Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

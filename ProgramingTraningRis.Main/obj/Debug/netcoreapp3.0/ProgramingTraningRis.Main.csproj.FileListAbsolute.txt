@@ -1,0 +1,12 @@
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\bin\Debug\netcoreapp3.0\ProgramingTraningRis.Main.deps.json
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\bin\Debug\netcoreapp3.0\ProgramingTraningRis.Main.dll
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\bin\Debug\netcoreapp3.0\ProgramingTraningRis.Main.pdb
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\Views\ViewA.g.cs
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\ProgramingTraningRis.Main_MarkupCompile.cache
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\ProgramingTraningRis.Main_MarkupCompile.lref
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\Views\ViewA.baml
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\ProgramingTraningRis.Main.g.resources
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\ProgramingTraningRis.Main.AssemblyInfoInputs.cache
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\ProgramingTraningRis.Main.AssemblyInfo.cs
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\ProgramingTraningRis.Main.dll
+C:\02_git2\ProgramingTraningRis\ProgramingTraningRis.Main\obj\Debug\netcoreapp3.0\ProgramingTraningRis.Main.pdb

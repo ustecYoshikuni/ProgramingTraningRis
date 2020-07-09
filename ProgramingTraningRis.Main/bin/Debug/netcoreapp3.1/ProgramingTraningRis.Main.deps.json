@@ -1,0 +1,145 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ProgramingTraningRis.Main/1.0.0": {
+        "dependencies": {
+          "Prism.Wpf": "7.2.0.1422",
+          "ReactiveProperty": "7.1.0",
+          "System.Reactive.Reference": "4.4.0.0"
+        },
+        "runtime": {
+          "ProgramingTraningRis.Main.dll": {}
+        }
+      },
+      "CommonServiceLocator/2.0.4": {
+        "runtime": {
+          "lib/netcoreapp2.0/CommonServiceLocator.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
+        "runtime": {
+          "lib/netcoreapp3.0/Prism.dll": {
+            "assemblyVersion": "7.2.0.1422",
+            "fileVersion": "7.2.0.1422"
+          }
+        }
+      },
+      "Prism.Wpf/7.2.0.1422": {
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Prism.Core": "7.2.0.1422"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Prism.Wpf.dll": {
+            "assemblyVersion": "7.2.0.1422",
+            "fileVersion": "7.2.0.1422"
+          },
+          "lib/netcoreapp3.0/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "3.0.40218.0"
+          }
+        }
+      },
+      "ReactiveProperty/7.1.0": {
+        "dependencies": {
+          "ReactiveProperty.Core": "7.1.0",
+          "System.ComponentModel.Annotations": "4.7.0",
+          "System.Reactive": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ReactiveProperty.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "ReactiveProperty.Core/7.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/ReactiveProperty.Core.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.Reactive/4.4.1": {},
+      "System.Reactive.Reference/4.4.0.0": {
+        "runtime": {
+          "System.Reactive.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.1.57983"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProgramingTraningRis.Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonServiceLocator/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YpXfV5l6kv1iQRDfhQnN4RxocbnNehU/rAAS62IlaQUTAKN3WoUbtx9MHwE98Pb09mBemSs4xhVqFhXq27rjxw==",
+      "path": "commonservicelocator/2.0.4",
+      "hashPath": "commonservicelocator.2.0.4.nupkg.sha512"
+    },
+    "Prism.Core/7.2.0.1422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U6tZ4Iq+ELyK5PedRC6E20caZXXTmTYiw5evpv0M3WcfKgih9H5G5LDBlDl+65eC5Vb4lnOaUCAtckdEl2MRxA==",
+      "path": "prism.core/7.2.0.1422",
+      "hashPath": "prism.core.7.2.0.1422.nupkg.sha512"
+    },
+    "Prism.Wpf/7.2.0.1422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-njl3uLjqDXeWCbAItgDkZsWIqVnRyhknoMMXZSQdO9jKoIgb+qB/X47YT5KchCNLxLtDq3saQMf5mSZ/LQLqiQ==",
+      "path": "prism.wpf/7.2.0.1422",
+      "hashPath": "prism.wpf.7.2.0.1422.nupkg.sha512"
+    },
+    "ReactiveProperty/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TnPeeUD6aJOzHHZeIB743MEYC3z2X/74mIJ9gURvYmgCf034cc0pBabbhYBF8Qid4Md6u7HBRJBv/ybj1DlVjQ==",
+      "path": "reactiveproperty/7.1.0",
+      "hashPath": "reactiveproperty.7.1.0.nupkg.sha512"
+    },
+    "ReactiveProperty.Core/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2PseOnogUdwzlCyOF/e3dk8eO9y3NbTyTkSswJzAFAimPn9EU6t1TKbrnlwMFquxDvbrO3N0Hi3Yb2YoHpT4Q==",
+      "path": "reactiveproperty.core/7.1.0",
+      "hashPath": "reactiveproperty.core.7.1.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    },
+    "System.Reactive/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iSTPeWR9HJhGoNV4WhVlvofuiTjpok1i4E3LPgMdbMqf3jKhFlT9HAlO32lb52NLppWC/4dZQFfUzTytvyXBmw==",
+      "path": "system.reactive/4.4.1",
+      "hashPath": "system.reactive.4.4.1.nupkg.sha512"
+    },
+    "System.Reactive.Reference/4.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
