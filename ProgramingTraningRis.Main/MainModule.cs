@@ -9,15 +9,20 @@ namespace ProgramingTraningRis.Main
     {
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            //DIコンテナからPrismのフレームワークの画面管理のものをとりだしてる
+            // DIコンテナからPrismのフレームワークの画面管理のものをとりだしてる
             var regionMan = containerProvider.Resolve<IRegionManager>();
 
             //
-            regionMan.RegisterViewWithRegion("ContentRegion", typeof(Views.List));
+            regionMan.RegisterViewWithRegion("ContentRegion", typeof(Views.Login));
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            //　画面を追加したらここに書いて、画面管理のものに教える感じです！
+            containerRegistry.RegisterForNavigation<ViewA>();
+            containerRegistry.RegisterForNavigation<List>();
+            containerRegistry.RegisterForNavigation<Login>();
+            containerRegistry.RegisterForNavigation<Study.Views.Study>();
         }
     }
 }

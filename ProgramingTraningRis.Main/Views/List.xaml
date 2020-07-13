@@ -12,6 +12,7 @@
             <TextBlock Text="{Binding PropertyName.Value}">
             </TextBlock>
             <Button Width="200" Height="20" Command="{Binding TextChangeCommand}">ボタン</Button>
+            <Button Width="200" Height="20" Command="{Binding ToStudyCommand}">検査ボタン</Button>
         </StackPanel>
     </Grid>
 </UserControl>

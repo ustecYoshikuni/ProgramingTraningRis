@@ -1,5 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
+using Prism.Regions;
+using ProgramingTraningRis.Common;
 using Reactive.Bindings;
 using System;
 using System.Collections.Generic;
@@ -13,16 +15,24 @@ namespace ProgramingTraningRis.Main.ViewModels
         public ReactiveProperty<string> PropertyName { get; }
 
         public ReactiveCommand TextChangeCommand { get; }
+        public ReactiveCommand ToStudyCommand { get; }
 
-        public ListViewModel()
+        private IRegionManager RegionManager { get; set; }
+
+        public ListViewModel(IRegionManager regionManager)
         {
             this.MyProperty = "aaaaaaaa";
 
+            this.RegionManager = regionManager;
+
             this.PropertyName = new ReactiveProperty<string>();
+            this.TextChangeCommand = new ReactiveCommand();
+            this.ToStudyCommand = new ReactiveCommand();
+
             this.PropertyName.Value = "sabosabo";
 
-            this.TextChangeCommand = new ReactiveCommand();
             this.TextChangeCommand.Subscribe(_ => this.TextChange());
+            this.ToStudyCommand.Subscribe(_ => this.ToStudy());
         }
 
         private bool Flag = true;
@@ -41,6 +51,11 @@ namespace ProgramingTraningRis.Main.ViewModels
                 this.PropertyName.Value = "sabasabo";
                 this.Flag = true;
             }
+        }
+
+        private void ToStudy()
+        {
+            this.RegionManager.RequestNavigate("ContentRegion", ViewControl.Study);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Prism.Ioc;
 using Prism.Modularity;
+using ProgramingTraningRis.Common;
 using ProgramingTraningRis.Main;
 using ProgramingTraningRis.Views;
 using System.Windows;
@@ -23,6 +24,7 @@ namespace ProgramingTraningRis
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule<MainModule>(InitializationMode.WhenAvailable);
+            moduleCatalog.AddModule<CommonModule>(InitializationMode.WhenAvailable);
         }
     }
 }
