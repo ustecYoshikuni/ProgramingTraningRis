@@ -1,11 +1,8 @@
-﻿using Prism.Commands;
-using Prism.Mvvm;
+﻿using Prism.Mvvm;
 using Prism.Regions;
 using ProgramingTraningRis.Common;
 using Reactive.Bindings;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace ProgramingTraningRis.Main.ViewModels
 {

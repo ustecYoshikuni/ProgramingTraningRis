@@ -1,9 +1,4 @@
-﻿using Prism.Regions;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ProgramingTraningRis.Common
+﻿namespace ProgramingTraningRis.Common
 {
     public class ViewControl
     {
